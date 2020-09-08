@@ -1,6 +1,4 @@
 from typing import List
-
-
 class ReorderLogs:
     def reorderLogFiles(self, logs):
         """
@@ -23,7 +21,7 @@ class ReorderLogs:
         return result
 
 
-    def reorderLogFiles2(self, logs: List[str]) -> List[str]:
+    def reorderLogFiles2(self, logs:  List[str]) -> List[str]:
 
         def get_key(log):
             _id, rest = log.split(" ", maxsplit=1)
